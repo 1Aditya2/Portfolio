@@ -1,1 +1,1 @@
-The portfolio is deployed at 1aditya2.netlify.app/
+The portfolio is deployed at https://1aditya2.netlify.app/
