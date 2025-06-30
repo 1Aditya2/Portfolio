@@ -1,0 +1,105 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .title {
+    width: 100%;
+    font-size: 17vw;
+    margin-top: 70px;
+    .titl {
+      width: 90%;
+
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+
+      justify-content: center;
+    }
+  }
+  .proj {
+    width: 100%;
+
+    padding: 3vw;
+    .proj-box {
+      width: 80%;
+
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      row-gap: 50px;
+      .proj-item {
+        width: 35vw;
+        height: 25vw;
+
+        flex-direction: column;
+
+        .img {
+          width: 100%;
+          height: 100%;
+
+          overflow: hidden;
+          border-radius: 10px;
+          transition: 0.5s ease-in-out;
+          position: relative;
+
+          .overlay {
+            width: 100%;
+            height: 100%;
+            background-color: rgba($color: #000000, $alpha: 1);
+            opacity: 0.3;
+            z-index: 9;
+            transition: 0.5s ease-in-out;
+          }
+
+          &:hover {
+            transform: scale(0.9);
+            box-shadow: 4px 4px 5px 0px gray;
+            .overlay {
+              opacity: 0;
+            }
+
+            img {
+              transform: scale3d(1.5, 1.5, 1);
+              transition: transform 5s ease-in-out;
+            }
+          }
+          img {
+            z-index: -9;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale3d(1, 1, 1);
+            transition: transform 1s ease-in-out;
+          }
+        }
+
+        .name {
+          margin-top: 10px;
+
+          width: 100%;
+
+          font-size: 2vw;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .projects {
+    .proj {
+      .proj-box {
+        width: 100%;
+        .proj-item {
+          width: 100%;
+          height: 70vw;
+          .name {
+            font-size: 6vw;
+          }
+        }
+      }
+    }
+  }
+}

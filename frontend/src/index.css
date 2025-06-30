@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* @font-face {
+  font-family: myFont;
+  src: url(./Assets/Montserrat/static/Montserrat-ExtraBoldItalic.ttf);
+} */
+body {
+  font-family: sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3F4FA;
+  /* cursor: none; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  --cursor-color:'black'
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lnk:hover {
+  color: #616264;
+  transition: 0.5s;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+

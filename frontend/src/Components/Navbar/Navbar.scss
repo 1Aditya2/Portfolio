@@ -1,0 +1,49 @@
+.navbar {
+  height: 70px;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 9999;
+
+
+  .nav-items {
+    width: 90%;
+
+    ul {
+      list-style: none;
+      font-size: 1rem;
+      display: flex;
+      justify-content: space-between;
+      .resp-nav{
+        display: none;
+      }
+     
+        li{
+        
+          padding: 10px;
+          background-color: black;
+          color: whitesmoke;
+          border-radius: 20px;
+          
+        }
+      
+      
+    }
+  }
+}
+@media screen and (max-width:768px){
+  .navbar{
+    .nav-items{
+      ul{
+        font-size: 1.2rem;
+        .resp-nav{
+          display: block;
+        }
+        .norm-nav{
+          display: none;
+        }
+      }
+    }
+  }
+}

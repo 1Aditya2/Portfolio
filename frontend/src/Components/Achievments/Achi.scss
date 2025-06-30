@@ -1,0 +1,39 @@
+.achi {
+  flex-direction: column;
+
+  .title {
+    width: 90%;
+    margin-top: 70px;
+
+    .titl {
+      font-size: 14vw;
+    }
+  }
+  .achi-box {
+    width: 100%;
+
+    font-size: 3.5rem;
+    .achi-content {
+      width: 75%;
+
+      .ach {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+        transition: color 1s ease-out, box-shadow 1s ease-out;
+        &:hover {
+          color: whitesmoke;
+          box-shadow: inset 1200px 0 0 0 black;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 670px) {
+  .achi {
+    .achi-box {
+      font-size: 1.5rem;
+    }
+  }
+}
