@@ -11,10 +11,10 @@ function Hero() {
             Aditya <br />
             Yadav
           </h2>
-          <span className="prof">MERN Stack Developer</span>
+          <span className="prof">Frontend Developer</span>
 
           <p>
-            An experienced MERN Stack Developer crafting digital
+            An experienced Frontend Developer crafting digital
             excellence.Let's turn your imagination into a great project.
           </p>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
 import AnimatedCursor from "react-animated-cursor";
-import resume from "../../Assets/Aditya's Resume.pdf";
+import resume from "../../Assets/Aditya_Yadav_Resume.pdf";
 function Navbar() {
   return (
     <div className="navbar center">

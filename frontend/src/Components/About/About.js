@@ -6,7 +6,7 @@ function About() {
     const l1=document.getElementById("1");
     const l2=document.getElementById("2");
     const l3=document.getElementById("3");
-    if(l1.className=='lnk sel'){
+    if(l1.className == 'lnk sel'){
       l1.classList.remove('sel')
     }
     else if(l2.className=='lnk sel'){
@@ -31,7 +31,7 @@ function About() {
       setpara(`Hello, I am a passionate and skilled Frontend Developer with a Bachelor's degree in Technology and a strong foundation in computer science principles. I specialize in building robust, user-friendly, and visually appealing web applications. My technical proficiency includes React.js, Next.js, Redux Toolkit, Redux-Saga, Material-UI (MUI), styled-components, and SASS`)
     }
     else if(t=='Experience'){
-      setpara('My professional journey has equipped me with a versatile skill set and a deep understanding of the software development lifecycle, enabling me to contribute effectively to any team or project. For the past 8 months, I have worked as a freelance software developer, successfully completing various projects for diverse clients.As a Software Developer at ElevateHQ, I am responsible for designing, developing, and maintaining web applications.I utilize my expertise in React.js, Next.js, Redux Toolkit, Redux-Saga, Material-UI, styled-components, and SASS to create efficient and scalable applications.')
+      setpara('My professional journey has equipped me with a versatile skill set and a deep understanding of the software development lifecycle, enabling me to contribute effectively to any team or project. For the past 1 year, I have worked as a freelance software developer, successfully completing various projects for diverse clients.As a Software Developer at ElevateHQ, I am responsible for designing, developing, and maintaining features.I utilize my expertise in React.js, Next.js, Redux Toolkit, Redux-Saga, Material-UI, styled-components, and SASS to create efficient and scalable applications.')
     }
     else{
       setpara(`I hold a Bachelor's degree in Technology, graduating with a 7.91 pointer as part of the 2024 batch. My academic journey has equipped me with a solid foundation in computer science principles and software development methodologies. Prior to my degree, I completed my schooling in 2019, which laid the groundwork for my passion and proficiency in technology. My education has been instrumental in shaping my technical skills and problem-solving abilities, preparing me for a successful career in frontend development.`)

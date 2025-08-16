@@ -15,7 +15,7 @@ function Projects() {
           <div className="proj-item center">
             
               <div className="img">
-              <a href="https://github.com/1Aditya2/E-Commerce-Application" target="blank"><div className="overlay"></div></a>
+              <a href="https://musical-cocada-d07119.netlify.app/" target="blank"><div className="overlay"></div></a>
                 
                 <img src={ecom} alt="" />
               </div>
